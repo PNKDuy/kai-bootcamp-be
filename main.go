@@ -13,7 +13,6 @@ func main() {
  }))
  general := server.Group("/general")
  {
-  general.GET("/hello", controller.Hello)
   general.GET("/random", controller.Random)
  }
 
